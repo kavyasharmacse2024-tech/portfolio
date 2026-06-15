@@ -1,0 +1,24 @@
+body{
+  margin: 0;
+  padding: 0;
+   background:black;
+}
+  .gallery{
+    display: flex;
+    gap:15px;
+    flex-wrap: wrap;
+   margin-left: 50px;
+    align-items: center;
+   
+   
+  }
+ .gallery img{
+  width: 100%;
+max-width: 600px;
+object-fit: cover;
+border-radius: 10px;
+border: 2px solid black;
+
+
+ }
+ 
