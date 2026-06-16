@@ -7,7 +7,7 @@ body{
     display: flex;
     gap:15px;
     flex-wrap: wrap;
-   margin-left: 50px;
+   margin: 20px;
     align-items: center;
    
    
@@ -18,7 +18,21 @@ max-width: 600px;
 object-fit: cover;
 border-radius: 10px;
 border: 2px solid black;
-
-
  }
+ @media (max-width: 768px){
+
+  .gallery{
+    margin: 10px;
+    gap: 10px;
+  }
+
+  .gallery img,
+  .project-image,
+  .rooms{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
  
